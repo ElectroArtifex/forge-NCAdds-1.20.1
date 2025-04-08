@@ -14,16 +14,15 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NCAdds.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> NCADDS_TAB = CREATIVE_MODE_TABS.register( "ncadds_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FIREBIRD_FEATHER.get()))
-                    .title(Component.translatable("creativetab.ncfirebird_tab"))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FIRE_OPAL.get()))
+                    .title(Component.translatable("creativetab.ncadds_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.FIREBIRD_FEATHER.get());
-                        pOutput.accept(ModItems.SOUL_FIREBIRD_FEATHER.get());
-                        pOutput.accept(ModItems.FIREBIRD_TEAR.get());
-                        pOutput.accept(ModItems.FIREBIRD_ASHES.get());
-                        pOutput.accept(ModItems.SOUL_FIREBIRD_ASHES.get());
                         pOutput.accept(ModItems.HEATSTONE.get());
                         pOutput.accept(ModItems.HEATSTONE_AMULET.get());
+                        pOutput.accept(ModItems.FIRE_OPAL.get());
+                        pOutput.accept(ModItems.FIRE_OPAL_AMULET.get());
+
+
                     })
                     .build());
 

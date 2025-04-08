@@ -31,13 +31,10 @@ public class NCAdds
 
         ModItems.register(modEventBus);
 
-        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
 
-        // Register the item to a creative tab
+        MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 
     }
@@ -52,11 +49,9 @@ public class NCAdds
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.HEATSTONE);
             event.accept(ModItems.HEATSTONE_AMULET);
-            event.accept(ModItems.FIREBIRD_FEATHER);
-            event.accept(ModItems.FIREBIRD_TEAR);
-            event.accept(ModItems.SOUL_FIREBIRD_FEATHER);
-            event.accept(ModItems.FIREBIRD_ASHES);
-            event.accept(ModItems.SOUL_FIREBIRD_ASHES);
+            event.accept(ModItems.FIRE_OPAL);
+            event.accept(ModItems.FIRE_OPAL_AMULET);
+
 
         }
     }
