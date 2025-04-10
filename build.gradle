@@ -160,6 +160,7 @@ repositories {
 dependencies {
 
     implementation(fg.deobf("curse.maven:tfc-302973:6187491"))
+    implementation(fg.deobf("curse.maven:firmalife-453394:6379742"))
 
     implementation fg.deobf("curse.maven:cold-sweat-506194:6176793-sources-6176794")
     // compile against the JEI API but do not include it at runtime
