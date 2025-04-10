@@ -85,11 +85,15 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -105,6 +109,8 @@ minecraft {
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
     }
 }
@@ -113,8 +119,30 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    /// JEI
+    maven {
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        url = "https://modmaven.k-4u.nl"
+    }
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    // Curios
+    maven {
+        url = "https://maven.theillusivec4.top/"
+    }
+    // Cold Sweat etc
+    maven {
+        url = "https://cursemaven.com/"
+        content {
+            includeGroup "curse.maven"
+        }
 
 
+    }
 
 
     // Put repositories for dependencies here
@@ -131,8 +159,25 @@ repositories {
 
 dependencies {
 
+    implementation(fg.deobf("curse.maven:tfc-302973:6187491"))
 
+    implementation fg.deobf("curse.maven:cold-sweat-506194:6176793-sources-6176794")
+    // compile against the JEI API but do not include it at runtime
+    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
+    // at runtime, use the full JEI jar for Forge
+    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.11.1+1.20.1")
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.11.1+1.20.1:api")
+
+    compileOnly(fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE"))
+    runtimeOnly(fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE"))
+
+    // Jade
+    compileOnly(fg.deobf("curse.maven:jade-324717:6291330"))
+
+    // Only use Jade at runtime
+    runtimeOnly(fg.deobf("curse.maven:jade-324717:6291330"))
 
     // Specify the version of Minecraft to use.
     // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
