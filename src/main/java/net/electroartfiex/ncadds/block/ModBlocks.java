@@ -24,6 +24,19 @@ public class ModBlocks {
                     .mapColor(MapColor.TERRACOTTA_RED).instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
 
+    public static final RegistryObject<Block> FIRE_OPAL_BLOCK = registerBlock("fire_opal_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.TERRACOTTA_YELLOW).instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
+
+    public static final RegistryObject<Block> MITHRIL_FIRE_OPAL_BLOCK = registerBlock("mithril_fire_opal_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.TERRACOTTA_ORANGE).instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
+
+    public static final RegistryObject<Block> CREATIVE_HEAT_BLOCK = registerBlock("creative_heat_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

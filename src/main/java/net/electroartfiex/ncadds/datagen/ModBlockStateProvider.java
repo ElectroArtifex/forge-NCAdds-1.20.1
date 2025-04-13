@@ -16,6 +16,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.HEATSTONE_BLOCK);
+        blockWithItem(ModBlocks.FIRE_OPAL_BLOCK);
+        blockWithItem(ModBlocks.MITHRIL_FIRE_OPAL_BLOCK);
+        blockWithItem(ModBlocks.CREATIVE_HEAT_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

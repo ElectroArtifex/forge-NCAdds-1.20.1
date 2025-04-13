@@ -2,6 +2,9 @@
   "item.ncadds.heatstone": "Heatstone",
   "item.ncadds.heatstone_amulet": "Heatstone Amulet",
   "block.ncadds.heatstone_block": "Heatstone Block",
+  "block.ncadds.fire_opal_block": "Fire Opal Block",
+  "block.ncadds.,mithril_fire_opal_block": "Mithril Filigreed Fire Opal Block",
+  "block.ncadds.creative_heat_block": "Enchanted Heat Block",
   "item.ncadds.fire_opal": "Fire Opal",
   "item.ncadds.fire_opal_amulet": "Fire Opal Amulet",
   "creativetab.ncadds_tab": "NoxCraft Additions"

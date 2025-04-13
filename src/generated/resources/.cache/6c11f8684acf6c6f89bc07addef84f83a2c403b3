@@ -1,4 +1,13 @@
-// 1.20.1	2025-04-08T19:18:20.3267955	Block States: ncadds
+// 1.20.1	2025-04-13T14:05:34.3102526	Block States: ncadds
+14fdd351b6bc61027721b8c9ca96df2fa302753e assets/ncadds/blockstates/creative_heat_block.json
+989131c374e7f6e74d3c416d6cd6737ef534d4bf assets/ncadds/blockstates/fire_opal_block.json
 0b7e6aa56a80852cfb39545b24136ccbff3c1533 assets/ncadds/blockstates/heatstone_block.json
+3ddedeb6818ea4880e0c82d6017ea1279a8df204 assets/ncadds/blockstates/mithril_fire_opal_block.json
+34bcf67e7130dde90104eb8652d2ce8f7cb1c5a7 assets/ncadds/models/block/creative_heat_block.json
+6be9139b7dc543120ee45ce365f841da18908c99 assets/ncadds/models/block/fire_opal_block.json
 761b0c3487f5f9e6eea91badf772f4ed46332ed2 assets/ncadds/models/block/heatstone_block.json
+268179f94f72c91958a732140799b15aa9d998fc assets/ncadds/models/block/mithril_fire_opal_block.json
+f52df7a4cbc31586cc74240003a55ded9a40983f assets/ncadds/models/item/creative_heat_block.json
+9fecd97622052684b1a6cb90574fe8e04540cfb2 assets/ncadds/models/item/fire_opal_block.json
 d44d9322f541b45b0b543599b09da7b4aad9e347 assets/ncadds/models/item/heatstone_block.json
+a4b49e42cc737e7f74aed11dafee0c456ccdef4a assets/ncadds/models/item/mithril_fire_opal_block.json

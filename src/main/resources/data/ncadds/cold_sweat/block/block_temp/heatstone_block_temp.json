@@ -1,0 +1,12 @@
+{
+  "blocks": [
+    "ncadds:heatstone_block"
+  ],
+  "temperature": 50,
+  "max_effect": 80,
+  "temp_limit": 49,
+  "units": "F",
+  "fade": false,
+  "range": 16
+
+}

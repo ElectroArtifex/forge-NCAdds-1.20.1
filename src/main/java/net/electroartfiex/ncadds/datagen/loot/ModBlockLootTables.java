@@ -18,7 +18,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.HEATSTONE_BLOCK.get());
-
+        this.dropSelf(ModBlocks.FIRE_OPAL_BLOCK.get());
+        this.dropSelf(ModBlocks.MITHRIL_FIRE_OPAL_BLOCK.get());
+        this.dropSelf(ModBlocks.CREATIVE_HEAT_BLOCK.get());
     }
 
     @Override
