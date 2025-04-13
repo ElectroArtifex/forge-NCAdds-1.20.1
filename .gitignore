@@ -23,3 +23,15 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+/run-data/logs/2025-04-08-3.log.gz
+/run-data/logs/2025-04-08-4.log.gz
+/run-data/logs/2025-04-13-1.log.gz
+/run-data/logs/2025-04-13-2.log.gz
+/run-data/logs/2025-04-13-3.log.gz
+/run-data/logs/debug-3.log.gz
+/run-data/logs/debug-4.log.gz
+/run-data/logs/debug-5.log.gz
+/run-data/config/jei/jei-client.ini
+/run-data/config/jei/jei-colors.ini
+/run-data/config/jei/jei-debug.ini
+/run-data/config/jei/jei-mod-id-format.ini
