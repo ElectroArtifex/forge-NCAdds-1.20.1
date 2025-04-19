@@ -23,6 +23,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FIRE_OPAL.get());
                         pOutput.accept(ModItems.FIRE_OPAL_AMULET.get());
                         pOutput.accept(ModBlocks.HEATSTONE_BLOCK.get());
+                        pOutput.accept(ModBlocks.GRACE_STATUE_BLOCK.get());
+                        pOutput.accept(ModItems.EIS_AMULET.get());
+                        pOutput.accept(ModBlocks.ETERNAL_ICE_SCULPTURE.get());
+                        pOutput.accept(ModItems.GLACIAL_AQUAMARINE.get());
+                        pOutput.accept(ModItems.GLACIAL_AQUAMARINE_AMULET.get());
+
 
 
                     })

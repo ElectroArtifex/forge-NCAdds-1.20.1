@@ -21,6 +21,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FIRE_OPAL);
         simpleItem(ModItems.HEATSTONE_AMULET);
         simpleItem(ModItems.FIRE_OPAL_AMULET);
+        simpleItem(ModItems.GLACIAL_AQUAMARINE);
+        simpleItem(ModItems.GLACIAL_AQUAMARINE_AMULET);
+        simpleItem(ModItems.EIS_AMULET);
 
 
     }

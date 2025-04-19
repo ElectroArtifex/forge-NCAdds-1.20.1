@@ -1,0 +1,9 @@
+{
+  "type": "tfc:chisel",
+  "ingredient": "minecraft:blue_ice",
+  "result": "ncadds:eternal_ice_sculpture",
+  "mode": "smooth",
+  "extra_drop": {
+    "item": "minecraft:snowball"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "items": [
+      "ncadds:eternal-ice-sculpture"
+    ]
+  },
+
+  "slots": [
+    "hand",
+    {
+      "min": 36,
+      "max": 44
+    }
+  ],
+
+  "temperature": -0.5,
+
+  "trait": "world",
+
+  "max_effect": -1
+
+}

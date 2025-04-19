@@ -1,0 +1,18 @@
+{
+  "type": "tfc:heating",
+  "ingredient": [
+    {
+      "item": "tfc:rock/loose/diorite"
+    },
+    {
+      "item": "tfc:rock/loose/gabbro"
+    },
+    {
+      "item": "tfc:rock/loose/granite"
+    }
+  ],
+  "result_item": {
+    "item": "ncadds:heatstone"
+  },
+  "temperature": 1399
+}

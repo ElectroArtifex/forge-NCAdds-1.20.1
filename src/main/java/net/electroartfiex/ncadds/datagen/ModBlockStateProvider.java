@@ -18,7 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.HEATSTONE_BLOCK);
         blockWithItem(ModBlocks.FIRE_OPAL_BLOCK);
         blockWithItem(ModBlocks.MITHRIL_FIRE_OPAL_BLOCK);
-        blockWithItem(ModBlocks.CREATIVE_HEAT_BLOCK);
+        blockWithItem(ModBlocks.GRACE_STATUE_BLOCK);
+        blockWithItem(ModBlocks.ETERNAL_ICE_SCULPTURE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

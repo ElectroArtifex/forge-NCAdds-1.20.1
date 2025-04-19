@@ -1,11 +1,17 @@
 {
   "item.ncadds.heatstone": "Heatstone",
   "item.ncadds.heatstone_amulet": "Heatstone Amulet",
+  "item.ncadds.eis_amulet": "Eternal-Ice Amulet",
+  "item.ncadds.fire_opal": "Fire Opal",
+  "item.ncadds.fire_opal_amulet": "Fire Opal Amulet",
+  "item.ncadds.glacial_aquamarine": "Glacial Aquamarine",
+  "item.ncadds.glacial_aquamarine_amulet": "Glacial Aquamarine Amulet",
+
+  "block.ncadds.eternal_ice_sculpture": "Eternal-Ice Sculpture",
   "block.ncadds.heatstone_block": "Heatstone Block",
   "block.ncadds.fire_opal_block": "Fire Opal Block",
   "block.ncadds.,mithril_fire_opal_block": "Mithril Filigreed Fire Opal Block",
   "block.ncadds.creative_heat_block": "Enchanted Heat Block",
-  "item.ncadds.fire_opal": "Fire Opal",
-  "item.ncadds.fire_opal_amulet": "Fire Opal Amulet",
+
   "creativetab.ncadds_tab": "NoxCraft Additions"
 }

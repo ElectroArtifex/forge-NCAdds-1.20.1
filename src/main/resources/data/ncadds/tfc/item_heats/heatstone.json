@@ -1,0 +1,14 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:rock/loose/diorite"
+    },
+    {
+      "item": "tfc:rock/loose/gabbro"
+    },
+    {
+      "item": "tfc:rock/loose/granite"
+    }
+  ],
+  "heat_capacity": 4.0
+}

@@ -34,7 +34,10 @@ public class ModBlocks {
                     .mapColor(MapColor.TERRACOTTA_ORANGE).instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
 
-    public static final RegistryObject<Block> CREATIVE_HEAT_BLOCK = registerBlock("creative_heat_block",
+    public static final RegistryObject<Block> GRACE_STATUE_BLOCK = registerBlock("grace_statue_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK)));
+
+    public static final RegistryObject<Block> ETERNAL_ICE_SCULPTURE = registerBlock("eternal_ice_sculpture",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
