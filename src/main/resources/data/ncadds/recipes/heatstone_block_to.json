@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ncadds:heatstone"
+    }
+  },
+  "result": {
+    "item": "ncadds:heatstone_block",
+    "count": 1
+  }
+}
