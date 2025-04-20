@@ -15,8 +15,8 @@
 
   "temperature": -0.5,
 
-  "trait": "world",
+  "trait": "core",
 
-  "max_effect": -1
+  "max_effect": -0.65
 
 }

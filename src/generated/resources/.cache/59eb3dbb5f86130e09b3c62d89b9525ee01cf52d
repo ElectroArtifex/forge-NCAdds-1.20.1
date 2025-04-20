@@ -1,5 +1,6 @@
-// 1.20.1	2025-04-13T14:05:34.31125	Loot Tables
-1a26cd3028273573fb1c800a6637baf9c88644a0 data/ncadds/loot_tables/blocks/creative_heat_block.json
+// 1.20.1	2025-04-20T12:05:50.2698805	Loot Tables
+8c9f9ea2d72298bfa0ee394f732da3f75b2b06b9 data/ncadds/loot_tables/blocks/eternal_ice_sculpture.json
 94e8398ec177a390acc770f6d8f035710bf6fd2a data/ncadds/loot_tables/blocks/fire_opal_block.json
+7377f9ee45ae246f5c8fcccc221534c95ff884d4 data/ncadds/loot_tables/blocks/grace_statue_block.json
 30dfbdbff25f028b36cc499eed08634ec96e6eb5 data/ncadds/loot_tables/blocks/heatstone_block.json
 80a110efd0128da1893df5b32588a3ed44f8de66 data/ncadds/loot_tables/blocks/mithril_fire_opal_block.json

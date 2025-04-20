@@ -21,6 +21,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.FIRE_OPAL_BLOCK.get());
         this.dropSelf(ModBlocks.MITHRIL_FIRE_OPAL_BLOCK.get());
         this.dropSelf(ModBlocks.ETERNAL_ICE_SCULPTURE.get());
+        this.dropSelf(ModBlocks.GRACE_STATUE_BLOCK.get());
     }
 
     @Override

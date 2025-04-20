@@ -17,6 +17,6 @@
 
   "trait": "world",
 
-  "max_effect": 1
+  "max_effect": 0.75
 
 }
