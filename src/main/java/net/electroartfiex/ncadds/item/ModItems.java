@@ -2,6 +2,7 @@ package net.electroartfiex.ncadds.item;
 
 import net.electroartfiex.ncadds.NCAdds;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,7 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, NCAdds.MOD_ID);
     public static final RegistryObject<Item> HEATSTONE = ITEMS.register("heatstone",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> GLACIAL_AQUAMARINE = ITEMS.register("glacial_aquamarine",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FIRE_OPAL = ITEMS.register("fire_opal",
