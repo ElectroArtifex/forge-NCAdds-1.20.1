@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ncadds:block/eternal_ice_sculpture"
+  }
+}

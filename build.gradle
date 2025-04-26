@@ -159,26 +159,26 @@ repositories {
 
 dependencies {
 
-    implementation(fg.deobf("curse.maven:tfc-302973:6187491"))
-    implementation(fg.deobf("curse.maven:firmalife-453394:6379742"))
+    //implementation(fg.deobf("curse.maven:tfc-302973:6187491"))
+    // implementation(fg.deobf("curse.maven:firmalife-453394:6379742"))
 
-    implementation fg.deobf("curse.maven:cold-sweat-506194:6176793-sources-6176794")
+  implementation fg.deobf("curse.maven:cold-sweat-506194:6397734")
     // compile against the JEI API but do not include it at runtime
-    compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
+    // compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"))
     // at runtime, use the full JEI jar for Forge
-    runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
+    // runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.11.1+1.20.1")
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.11.1+1.20.1:api")
 
-    compileOnly(fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE"))
-    runtimeOnly(fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE"))
+    //compileOnly(fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE"))
+    //runtimeOnly(fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE"))
 
     // Jade
-    compileOnly(fg.deobf("curse.maven:jade-324717:6291330"))
+    //compileOnly(fg.deobf("curse.maven:jade-324717:6291330"))
 
     // Only use Jade at runtime
-    runtimeOnly(fg.deobf("curse.maven:jade-324717:6291330"))
+    // runtimeOnly(fg.deobf("curse.maven:jade-324717:6291330"))
 
     // Specify the version of Minecraft to use.
     // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
