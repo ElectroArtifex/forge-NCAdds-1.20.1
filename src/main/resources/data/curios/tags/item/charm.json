@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ncadds:heatstone_amulet",
+    "ncadds:eis_amulet",
+    "ncadds:fire_opal_amulet",
+    "ncadds:glacial_aquamarine_amulet"
+  ]
+}

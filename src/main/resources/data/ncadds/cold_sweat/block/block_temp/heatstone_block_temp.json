@@ -1,7 +1,9 @@
 {
-  "blocks": [
-    "ncadds:heatstone_block"
-  ],
+  "block": {
+    "blocks": [
+      "ncadds:heatstone_block"
+    ]
+  },
   "temperature": 0.5,
   "max_effect": 0.5,
   "fade": true,

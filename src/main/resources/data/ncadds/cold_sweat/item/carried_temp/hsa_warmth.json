@@ -1,18 +1,19 @@
 {
   "item": {
     "items": [
-      "ncadds:heatstone"
+      "ncadds:heatstone_amulet"
     ]
   },
 
   "slots": [
-    "hand"
+    "hand",
+    "curio"
   ],
 
   "temperature": 0.5,
 
   "trait": "world",
 
-  "max_effect": 0.75
+  "max_effect": 0.5
 
 }
